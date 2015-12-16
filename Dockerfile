@@ -33,7 +33,7 @@ RUN apt-get -y update && apt-get -y install \
     cmake libboost-dev libgmp-dev libmpfr-dev libboost-thread-dev libboost-system-dev \
     libpcre3-dev
 
-#qt
+#install qt
 RUN apt-get install -y --force-yes qt5-default libqt5webkit5-dev
 
 WORKDIR /install-postgis
